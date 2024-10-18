@@ -1,0 +1,15 @@
+Foram criadas quatro páginas principais: Home,Anúncio de Caminhões, Sobre Nós e Contato. Cada uma foi desenvolvida como um componente React separado dentro da pasta src/pages/.
+Home (Home.js): Serve como introdução ao site da empresa.
+Anúncio de Caminhões (AnuncioCaminhoes.js): Exibe imagens de caminhões com descrições.
+Sobre Nós (Sobre.js): Informa sobre a empresa.
+Contato (Contato.js): Contém um formulário com campos para nome, e-mail e mensagem, que pode ser enviado ao pressionar o botão "Enviar".
+No arquivo principal App.js, configuramos as rotas utilizando os componentes do react-router-dom. Criamos um menu de navegação que direciona o usuário para as diferentes páginas:
+Importamos os componentes essenciais do react-router-dom: BrowserRouter, Routes, Route, Link.
+Definimos as rotas no componente App.js para que cada página seja acessível por uma URL diferente:
+Cada página foi associada a uma URL específica, como /anuncios para os anúncios de caminhões, /sobre para a página "Sobre nós" e /contato para o formulário de contato.
+Para exibir imagens nos anúncios de caminhões e na página inicial, adicionamos imagens na pasta public/images e as importamos para os componentes adequados.
+Para tornar o design mais atraente, criamos o arquivo App.css e estilizamos a aplicação com base em um layout minimalista, inspirado em sites modernos.
+Cor de fundo: A cor de fundo foi definida como preto (#000).
+Texto claro: O texto foi estilizado em branco (#fff) para contraste com o fundo.
+Layout das imagens: As imagens dos caminhões foram exibidas com largura máxima, bordas arredondadas, e com um efeito de zoom ao passar o mouse.
+O formulário da página de contato foi criado com três campos principais: Nome, E-mail e Mensagem, além de um botão de envio.

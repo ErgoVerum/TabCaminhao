@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000; 
+  color: #fff; 
+  font-family: 'Arial', sans-serif;
+}
+
+nav {
+  background-color: #1a1a1a;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home-image {
+  width: 600px;
+  height: 600px;
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+nav ul li a:hover {
+  color: #1e90ff; 
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+p {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.anuncio-caminhoes ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.anuncio-caminhoes li {
+  list-style: none;
+  margin: 20px;
+  text-align: center;
+}
+
+.anuncio-caminhoes img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.anuncio-caminhoes img:hover {
+  transform: scale(1.05); 
+}
+
+form {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #4682b4;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: #1a1a1a;
+}
